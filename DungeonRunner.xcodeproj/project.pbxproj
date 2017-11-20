@@ -79,13 +79,10 @@
 		767A064B1FC2FEDE00F556BD /* DungeonRunner */ = {
 			isa = PBXGroup;
 			children = (
-				767A064C1FC2FEDE00F556BD /* AppDelegate.swift */,
-				767A064E1FC2FEDE00F556BD /* ViewController.swift */,
-				767A06501FC2FEDE00F556BD /* Main.storyboard */,
-				767A06561FC2FEDE00F556BD /* Assets.xcassets */,
-				767A06581FC2FEDE00F556BD /* LaunchScreen.storyboard */,
-				767A065B1FC2FEDE00F556BD /* Info.plist */,
-				767A06531FC2FEDE00F556BD /* DungeonRunner.xcdatamodeld */,
+				767A06711FC2FF4B00F556BD /* Model */,
+				767A06701FC2FF4800F556BD /* View */,
+				767A066F1FC2FF3800F556BD /* Controller */,
+				767A06721FC2FF6C00F556BD /* Supporting Files */,
 			);
 			path = DungeonRunner;
 			sourceTree = "<group>";
@@ -97,6 +94,42 @@
 				767A06661FC2FEDE00F556BD /* Info.plist */,
 			);
 			path = DungeonRunnerTests;
+			sourceTree = "<group>";
+		};
+		767A066F1FC2FF3800F556BD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				767A064E1FC2FEDE00F556BD /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		767A06701FC2FF4800F556BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				767A06581FC2FEDE00F556BD /* LaunchScreen.storyboard */,
+				767A06501FC2FEDE00F556BD /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		767A06711FC2FF4B00F556BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				767A06531FC2FEDE00F556BD /* DungeonRunner.xcdatamodeld */,
+			);
+			name = Model;
+			path = "New Group1/Model";
+			sourceTree = "<group>";
+		};
+		767A06721FC2FF6C00F556BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				767A065B1FC2FEDE00F556BD /* Info.plist */,
+				767A06561FC2FEDE00F556BD /* Assets.xcassets */,
+				767A064C1FC2FEDE00F556BD /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
