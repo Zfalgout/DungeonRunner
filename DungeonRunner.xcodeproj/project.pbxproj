@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		7607E3341FC45257006A62FC /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7607E3331FC45257006A62FC /* Character.swift */; };
+		7607E3371FC49D85006A62FC /* CharacterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7607E3361FC49D85006A62FC /* CharacterProtocol.swift */; };
+		7607E3391FC49EFC006A62FC /* EnemyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7607E3381FC49EFC006A62FC /* EnemyProtocol.swift */; };
+		7607E33B1FC49F41006A62FC /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7607E33A1FC49F41006A62FC /* Enemy.swift */; };
+		7607E33D1FC4A0C4006A62FC /* ItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7607E33C1FC4A0C4006A62FC /* ItemProtocol.swift */; };
+		7607E33F1FC4A153006A62FC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7607E33E1FC4A153006A62FC /* Item.swift */; };
+		7607E3411FC4A2FE006A62FC /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7607E3401FC4A2FE006A62FC /* Player.swift */; };
+		7607E3431FC4A31A006A62FC /* PlayerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7607E3421FC4A31A006A62FC /* PlayerProtocol.swift */; };
 		767A064D1FC2FEDE00F556BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767A064C1FC2FEDE00F556BD /* AppDelegate.swift */; };
 		767A064F1FC2FEDE00F556BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767A064E1FC2FEDE00F556BD /* ViewController.swift */; };
 		767A06521FC2FEDE00F556BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767A06501FC2FEDE00F556BD /* Main.storyboard */; };
@@ -29,6 +36,13 @@
 
 /* Begin PBXFileReference section */
 		7607E3331FC45257006A62FC /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		7607E3361FC49D85006A62FC /* CharacterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterProtocol.swift; sourceTree = "<group>"; };
+		7607E3381FC49EFC006A62FC /* EnemyProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyProtocol.swift; sourceTree = "<group>"; };
+		7607E33A1FC49F41006A62FC /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		7607E33C1FC4A0C4006A62FC /* ItemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemProtocol.swift; sourceTree = "<group>"; };
+		7607E33E1FC4A153006A62FC /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		7607E3401FC4A2FE006A62FC /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		7607E3421FC4A31A006A62FC /* PlayerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerProtocol.swift; sourceTree = "<group>"; };
 		767A06491FC2FEDE00F556BD /* DungeonRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DungeonRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		767A064C1FC2FEDE00F556BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		767A064E1FC2FEDE00F556BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,7 +53,7 @@
 		767A065B1FC2FEDE00F556BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		767A06601FC2FEDE00F556BD /* DungeonRunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DungeonRunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		767A06641FC2FEDE00F556BD /* DungeonRunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonRunnerTests.swift; sourceTree = "<group>"; };
-		767A06661FC2FEDE00F556BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767A06661FC2FEDE00F556BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../DungeonRunnerTests/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7607E3351FC49D5A006A62FC /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7607E3361FC49D85006A62FC /* CharacterProtocol.swift */,
+				7607E3381FC49EFC006A62FC /* EnemyProtocol.swift */,
+				7607E33C1FC4A0C4006A62FC /* ItemProtocol.swift */,
+				7607E3421FC4A31A006A62FC /* PlayerProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		767A06401FC2FEDE00F556BD = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +109,7 @@
 				767A06711FC2FF4B00F556BD /* Model */,
 				767A06701FC2FF4800F556BD /* View */,
 				767A066F1FC2FF3800F556BD /* Controller */,
+				7607E3351FC49D5A006A62FC /* Protocols */,
 				767A06721FC2FF6C00F556BD /* Supporting Files */,
 			);
 			path = DungeonRunner;
@@ -93,7 +119,6 @@
 			isa = PBXGroup;
 			children = (
 				767A06641FC2FEDE00F556BD /* DungeonRunnerTests.swift */,
-				767A06661FC2FEDE00F556BD /* Info.plist */,
 			);
 			path = DungeonRunnerTests;
 			sourceTree = "<group>";
@@ -103,6 +128,9 @@
 			children = (
 				767A064E1FC2FEDE00F556BD /* ViewController.swift */,
 				7607E3331FC45257006A62FC /* Character.swift */,
+				7607E33A1FC49F41006A62FC /* Enemy.swift */,
+				7607E33E1FC4A153006A62FC /* Item.swift */,
+				7607E3401FC4A2FE006A62FC /* Player.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -129,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				767A065B1FC2FEDE00F556BD /* Info.plist */,
+				767A06661FC2FEDE00F556BD /* Info.plist */,
 				767A06561FC2FEDE00F556BD /* Assets.xcassets */,
 				767A064C1FC2FEDE00F556BD /* AppDelegate.swift */,
 			);
@@ -238,9 +267,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7607E33B1FC49F41006A62FC /* Enemy.swift in Sources */,
+				7607E33F1FC4A153006A62FC /* Item.swift in Sources */,
+				7607E3391FC49EFC006A62FC /* EnemyProtocol.swift in Sources */,
 				767A064F1FC2FEDE00F556BD /* ViewController.swift in Sources */,
+				7607E3431FC4A31A006A62FC /* PlayerProtocol.swift in Sources */,
+				7607E3371FC49D85006A62FC /* CharacterProtocol.swift in Sources */,
 				767A06551FC2FEDE00F556BD /* DungeonRunner.xcdatamodeld in Sources */,
 				767A064D1FC2FEDE00F556BD /* AppDelegate.swift in Sources */,
+				7607E33D1FC4A0C4006A62FC /* ItemProtocol.swift in Sources */,
+				7607E3411FC4A2FE006A62FC /* Player.swift in Sources */,
 				7607E3341FC45257006A62FC /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
